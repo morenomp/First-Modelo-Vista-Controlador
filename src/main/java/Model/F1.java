@@ -47,7 +47,7 @@ lo métodos o constructores de la misma clase.*/
     private double velocidadMaxima; // puede variar dependiendo del coche
     private boolean actividad; //quizas está retirado
     
-    private int contador = 0; //veremos cuantas entidades tenemos creadas
+    private static int contador = 0; //veremos cuantas entidades tenemos creadas
     
 //-------------------------------------
 //Sobrecarga de constructores:
@@ -174,7 +174,10 @@ lo métodos o constructores de la misma clase.*/
     public void setActividad(boolean actividad) {
         this.actividad = actividad;
     }
-    
+
+    public static void setContador(int contador) {
+        F1.contador = contador;
+    }
 //-------------------------------------
 /*
     MÁS INFO:
