@@ -15,6 +15,7 @@ public class MyAPI {
      * @return retornará el numero del usuario
      */
     
+    
     public static int askForIntBetween(int min, int max, String msg) {
         
         Scanner consola = new Scanner(System.in);
@@ -63,6 +64,7 @@ public class MyAPI {
     //creamos notString para verificar que el contenido introducido es un string
     //PROBLEMA: Si el usuario pone cualquier cosa incluyendo cosas como numeros, 
     //simbolos o espacios las aceptará
+    
     public static String notString(String msg, String error) {
         
         Scanner consola = new Scanner(System.in);
