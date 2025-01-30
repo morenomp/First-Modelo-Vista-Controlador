@@ -1,4 +1,4 @@
-# **Resumen de la Práctica**
+📌# **Resumen de la Práctica**
 Esta práctica consiste en la gestión de vehículos de Fórmula 1 (entre 2021-2024) mediante el uso de ArrayLists para almacenar datos como:
 
     El [nombre] del piloto.
@@ -22,19 +22,19 @@ Esta última funcionalidad consta de otra ArrayList con datos ya implementados. 
 # **Modelo Vista Controlador**
 El programa sigue una estructura basada en el Modelo Vista Controlador (MVC) para organizar el código de una manera eficiente y mucho más organizada. ¿Pero que son cada uno de ellos?
 
-## **MODELO**
+🔴## **MODELO**
 
     · Representa los datos y la lógica .
     · Contiene las clases que manejan la información y sus relaciones.
     · Por ejemplo: En esta práctica, sería la clase F1, que almacena información sobre pilotos y coches.
     
-## **VISTA**
+🔵## **VISTA**
 
     · Se encarga de la interfaz de usuario y la presentación de la información.
     · Recibe los datos del modelo y los muestra de manera adecuada.
     · Por ejemplo: En esta práctica, la consola actúa como la vista, mostrando mensajes y solicitando datos al usuario.
     
-## **CONTROLADOR**
+🟡## **CONTROLADOR**
 
     · Actúa como un intermediario entre la Vista y el Modelo.
     · Recibe las entradas del usuario, las procesa y actualiza el Modelo.
