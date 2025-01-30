@@ -1,4 +1,4 @@
-📌# **Resumen de la Práctica**
+# 📌 **Resumen de la Práctica**
 Esta práctica consiste en la gestión de vehículos de Fórmula 1 (entre 2021-2024) mediante el uso de ArrayLists para almacenar datos como:
 
     El [nombre] del piloto.
